@@ -1,0 +1,22 @@
+
+.heading
+  {
+   colour:black;
+   text-size: 100px; 
+   text-family: fantasy;
+   text-name: papyrus 
+   text-weight: 800;
+   text-align: center;
+   text-transform:titlecase;
+     
+}
+.name-of-band
+    {
+  colour: coral;
+  text-size:70px;
+  text-family: sans-serif;
+  text-name: helvetica;
+  text-align: center;
+    
+  }
+
