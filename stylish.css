@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body{
-	background-image:C:\Users\admin\Desktop\projects\editedbg.jpg;
+	background-image:"C:\Users\admin\Desktop\projects\editedbg.jpg";
 }
 .the-group
 	{
@@ -21,7 +21,13 @@ h1
 	margin:50px 40px 0px 30px;
 	color: forestgreen;
 	text-align:center;
-	box-sizing:border-box;
+
+}
+h2
+	{ 
+		font-family: cursive;
+		color: navy;
+		text-align: center;
 
 }
 #persona-image
@@ -32,25 +38,36 @@ h1
 	width: 50%;
 	height: auto;
 	border-radius:20px;
-}
+	}
+.profile
+	{ 
+		width: 1200px;
+		height: auto;
+		margin: auto;
+		box-sizing: border-box;
+		background-color: darkred;
+		justify-content:center;
+		display: flex;
+		font-size: 18px;
+	}
+
 .intro
 	{
-	width: 1000px;
+	width: 90%;
 	height: 100px;
 	background-color: teal;
-	margin: 20px auto;
+	margin: auto auto;
 	box-sizing: border-box;
-}
+	padding: 20px auto;
+	}
 .band-bio
 	{
 		width: 300px;
 		height:500px;
 		background-color: coral;
-		margin:10px;
+		margin:30px;
 		padding:10px 20px;
-		box-sizing: border-box;
 		display: inline-block;
 		text-align: justify;
 
-
-}
+	}
